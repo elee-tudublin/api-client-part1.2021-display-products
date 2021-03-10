@@ -63,7 +63,7 @@ let displayProducts = (products) => {
                 <td>${product.product_description}</td>
                 <td>${product.product_stock}</td>
                 <td class="price">&euro;${Number(product.product_price).toFixed(2)}</td>
-                </tr>`;
+              </tr>`;
 
     return row;
   });
